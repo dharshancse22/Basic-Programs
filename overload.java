@@ -5,6 +5,7 @@ public class overload{
         int sem = 6;
         double CGPA =7.33;
         Mydetails (Name,Class,sem,CGPA);
+        Mydetails (Name,Class,sem);
     }
     public static void Mydetails(String Name,String Class,int sem,double CGPA){
     System.out.println("My Name is : " + Name );
@@ -12,4 +13,10 @@ public class overload{
     System.out.println("My Sem is : " + sem );
     System.out.println("My CGPA is : " + CGPA );
     }
+    public static void Mydetails(String Name,String Class,int sem){
+        System.out.println("My Name is : " + Name );
+        System.out.println("My Class is : " + Class );
+        System.out.println("My Sem is : " + sem );
+        
+}
 }
